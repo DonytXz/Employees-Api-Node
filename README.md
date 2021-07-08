@@ -1,5 +1,15 @@
-# Intrucciones correspondientes en cada carpeta
-# Borrar nodemodules
+## Install 
+** npm install **
+** cloud db used you dont need woried about it **
 
-- api
-- empleados-departamentos
+## Execute 
+** nodemon **
+
+dependences:
+- mongoose
+- cors
+- nodemon
+- express-generator
+- nodemon
+
+
