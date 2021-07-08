@@ -6,9 +6,10 @@ var logger = require('morgan');
 const cors = require('cors');
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://donato:cado99alfa74@mycluster.ywpnz.mongodb.net/apiriss?retryWrites=true&w=majority', 
-// mongoose.connect('mongodb://127.0.0.1:27017/ris',
-{useNewUrlParser: true, useUnifiedTopology: true});
+
+//You must need to input our db conection line
+const url ='';
+mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true});
 
 require('./models/department');
 require('./models/employee');
