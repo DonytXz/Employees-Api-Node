@@ -1,6 +1,6 @@
 ## Install 
 ** npm install **
-** cloud db used you dont need woried about it **
+** Input our url db conection in te app.js **
 
 ## Execute 
 ** nodemon **
